@@ -1,11 +1,11 @@
-#include "Familienauto.h"
+#include "familienauto.h"
 
-void Familienauto::setNavi(int _navi)
+void Familienauto::setNavi(bool _navi)
 {
 	navi = _navi;
 }
 
-bool Familienauto::setNavi()
+bool Familienauto::getNavi()
 {
 	return navi;
 }

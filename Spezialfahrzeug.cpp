@@ -1,6 +1,9 @@
-#include "Spezialfahrzeug.h"
+#include "spezialfahrzeug.h"
+#include <string>
 
-void Spezialfahrzeug::setArt(char _art)
+using std::string;
+
+void Spezialfahrzeug::setArt(string _art)
 {
 	art = _art;
 }
@@ -10,7 +13,7 @@ void Spezialfahrzeug::setZweispurig(bool _zweispurig)
 	zweispurig = _zweispurig;
 }
 
-char Spezialfahrzeug::getArt()
+string Spezialfahrzeug::getArt()
 {
 	return art;
 }

@@ -3,7 +3,7 @@
 #ifndef SPORTWAGEN_H
 #define SPORTWAGEN_H
 
-#include "PKW.h"
+#include "pkw.h"
 
 class Sportwagen : public PKW
 {

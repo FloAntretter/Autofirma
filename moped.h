@@ -12,7 +12,7 @@
 
 using std::string;
 
-class moped : public motorrad
+class Moped : public Motorrad
 {
 private:
 	int stauraum;
@@ -20,12 +20,12 @@ private:
 	void setStauraum(int);
 
 public:
-	moped(int _stauraum)
+	Moped(int _stauraum)
 	{
 		setStauraum(_stauraum);
 	}
 
-	moped()
+	Moped()
 	{}
 
 	int getStauraum();

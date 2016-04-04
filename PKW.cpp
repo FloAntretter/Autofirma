@@ -1,4 +1,4 @@
-#include "PKW.h"
+#include "pkw.h"
 
 void PKW::setSitzplaetze(int _sitzplaetze)
 {

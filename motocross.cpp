@@ -6,12 +6,12 @@
 
 using std::string;
 
-string motocross::getReifen()
+string Motocross::getReifen()
 {
 	return reifen;
 }
 
-void motocross::setReifen(string _reifen)
+void Motocross::setReifen(string _reifen)
 {
 	reifen = _reifen;
 }

@@ -14,6 +14,8 @@ private:
 	int leistung, hubraum;
 	string marke, modell;
 	short gewicht, laenge, breite;
+
+protected:
 	void setLeistung(int);
 	void setHubraum(int);
 	void setMarke(string);

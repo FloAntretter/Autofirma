@@ -12,19 +12,19 @@
 
 using std::string;
 
-class motocross : public motorrad
+class Motocross : public Motorrad
 {
 private:
 	string reifen;
 	void setReifen(string);
 
 public:
-	motocross(string _reifen)
+	Motocross(string _reifen)
 	{
 		setReifen(_reifen);
 	}
 
-	motocross()
+	Motocross()
 	{}
 
 	string getReifen();

@@ -3,24 +3,39 @@
 #ifndef SPEZIALFAHRZEUG_H
 #define SPEZIELFAHRZEUG_H
 
-#include "Fahrzeug.h"
+#include <string>
+#include "fahrzeug.h"
 
-class Spezialfahrzeug : public Fahrzeug
+using std::string;
+
+class Spezialfahrzeug : Fahrzeug
 {
 private:
-	char art;
+	string art;
 	bool zweispurig;
-
-	void setArt(char);
+	void setArt(string);
 	void setZweispurig(bool);
+
 public:
-	Spezialfahrzeug(char _art, bool _zweispurig)
+	Spezialfahrzeug(int _leistung, int _hubraum,
+					string _marke, string _modell, 
+					short _gewicht, short _laenge, short _breite,
+					string _art, bool _zweispurig)
 	{
+		setLeistung(_leistung);
+		setHubraum(_hubraum);
+		setMarke(_marke);
+		setModell(_modell);
+		setGewicht(_gewicht);
+		setLaenge(_laenge);
+		setBreite(_breite);
 		setArt(_art);
 		setZweispurig(_zweispurig);
 	}
 
-	char getArt();
+	Spezialfahrzeug() {}
+
+	string getArt();
 	bool getZweispurig();
 };
 

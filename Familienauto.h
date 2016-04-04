@@ -3,9 +3,9 @@
 #ifndef FAMILIENAUTO_H
 #define FAMILIENAUTO_H
 
-#include "PKW.h"
+#include "pkw.h"
 
-class Familienauto : public PKW
+class Familienauto : PKW
 {
 private:
 	bool navi;

@@ -1,4 +1,4 @@
-#include "Sportwagen.h"
+#include "sportwagen.h"
 
 void Sportwagen::setBodenfreiheit(short _bodenfreiheit)
 {

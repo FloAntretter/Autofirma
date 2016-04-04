@@ -5,12 +5,12 @@
 
 using std::string;
 
-int motorrad::getBaujahr()
+int Motorrad::getBaujahr()
 {
 	return baujahr;
 }
 
-void motorrad::setBaujahr(int _baujahr)
+void Motorrad::setBaujahr(int _baujahr)
 {
 	baujahr = _baujahr;
 }

@@ -5,12 +5,12 @@
 
 using std::string;
 
-int moped::getStauraum()
+int Moped::getStauraum()
 {
 	return stauraum;
 }
 
-void moped::setStauraum(int _stauraum)
+void Moped::setStauraum(int _stauraum)
 {
 	stauraum = _stauraum;
 }
