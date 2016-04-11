@@ -16,18 +16,8 @@ protected:
 	void setStauraum(int);
 
 public:
-	PKW(int _leistung, int _hubraum,
-		string _marke, string _modell,
-		short _gewicht, short _laenge, short _breite,
-		int _sitzplaetze, int _baujahr, int _stauraum)
+	PKW(int _sitzplaetze, int _baujahr, int _stauraum)
 	{
-		setLeistung(_leistung);
-		setHubraum(_hubraum);
-		setMarke(_marke);
-		setModell(_modell);
-		setGewicht(_gewicht);
-		setLaenge(_laenge);
-		setBreite(_breite);
 		setSitzplaetze(_sitzplaetze);
 		setBaujahr(_baujahr);
 		setStauraum(_stauraum);

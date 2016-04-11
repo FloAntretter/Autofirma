@@ -20,18 +20,8 @@ private:
 	void setBaujahr(int);
 
 public:
-	Motorrad(int _leistung, int _hubraum,
-			 string _marke, string _modell,
-			 short _gewicht, short _laenge, short _breite,
-			 int _baujahr)
+	Motorrad(int _baujahr)
 	{
-		setLeistung(_leistung);
-		setHubraum(_hubraum);
-		setMarke(_marke);
-		setModell(_modell);
-		setGewicht(_gewicht);
-		setLaenge(_laenge);
-		setBreite(_breite);
 		setBaujahr(_baujahr);
 	}
 
