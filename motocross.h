@@ -2,11 +2,9 @@
 
 #ifndef MOTOCROSS_H
 #define MOTOCROSS_H
-#endif // !MOTOCROSS_H
-
 
 #include <string>
-#include <Windows.h>
+#include <windows.h>
 #include <iostream>
 #include "motorrad.h"
 
@@ -29,3 +27,5 @@ public:
 
 	string getReifen();
 };
+
+#endif // !MOTOCROSS_H

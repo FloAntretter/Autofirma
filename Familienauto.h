@@ -5,7 +5,7 @@
 
 #include "pkw.h"
 
-class Familienauto : PKW
+class Familienauto : public PKW
 {
 private:
 	bool navi;

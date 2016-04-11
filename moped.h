@@ -2,7 +2,6 @@
 
 #ifndef MOPED_H
 #define MOPED_H
-#endif // !MOPED_H
 
 #include <string>
 #include <iostream>
@@ -29,4 +28,6 @@ public:
 	{}
 
 	int getStauraum();
-}
+};
+
+#endif // !MOPED_H
